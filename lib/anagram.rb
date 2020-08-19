@@ -13,6 +13,7 @@ class Anagram
     words.find_all do |word|
       word.split("").sort == match_word
     end
+  end
       
   
 end
