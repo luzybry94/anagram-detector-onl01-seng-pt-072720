@@ -9,6 +9,7 @@ class Anagram
   end
   
   def match(words)
-    match_word = words.split("")
+    match_word = @word.split("").sort
+    words.each 
   
 end
