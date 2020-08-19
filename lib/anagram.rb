@@ -9,9 +9,8 @@ class Anagram
   end
   
   def match(words)
-    match_word = @word.split("").sort
     words.find_all do |word|
-      word.split("").sort == match_word
+      word.split("").sort == @word.split("").sort
     end
   end
       
